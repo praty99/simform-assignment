@@ -1,0 +1,25 @@
+.header-section-container {
+  background-color: grey;
+  .header-section {
+    padding: $standard-padding * 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .section-title {
+      color: lightsalmon;
+      margin: unset;
+    }
+    .expand {
+      border: none;
+      font-weight: 600;
+      color: $text-color-1500;
+      background-color: lightsalmon;
+      font-size: 1rem;
+      padding: $standard-padding * 1.5 $standard-padding * 4;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      text-align: center;
+    }
+  }
+}

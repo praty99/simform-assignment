@@ -1,0 +1,56 @@
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  background: $background-1500;
+  font-family: $font-family;
+  color: $text-color-400;
+  font-weight: 400;
+  height: 100%;
+}
+.root {
+  height: 100%;
+}
+.App {
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  padding: 0 $standard-padding * 2;
+  margin: 0 auto;
+  .container {
+    padding: 0;
+  }
+  @media screen and (min-width: 576px) {
+    padding: 0 $standard-padding * 2;
+    max-width: var(--container-width);
+    .container {
+      padding: 0;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    padding: 0 $standard-padding * 2;
+    max-width: var(--container-width);
+    .container {
+      padding: 0;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    padding: 0;
+    max-width: var(--container-width);
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 0;
+    max-width: var(--container-width);
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

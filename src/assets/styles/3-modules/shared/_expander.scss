@@ -1,0 +1,40 @@
+.expander {
+  color: $text-color-120;
+  .expander-header {
+    color: $accent-color-dark;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: space-between;
+    padding: $standard-padding 0;
+    margin: 0;
+    cursor: pointer;
+    .expander-button-image {
+      margin: auto $standard-margin * 3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      > div {
+        display: flex;
+      }
+    }
+    .expander-phase {
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+    }
+  }
+  .expander-children {
+    line-height: 1.69;
+    color: $text-color-120;
+    padding: $standard-padding 0;
+    padding-right: $standard-padding * 25;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    transition: height 0.2s ease;
+    .expander-body {
+      padding: $standard-padding 0;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.categories-list-section-container {
+  .categories-list-section {
+    padding: 0 $standard-padding * 4;
+    display: flex;
+    justify-content: center;
+    ul {
+      li {
+        padding: $standard-padding * 2 0;
+        .name {
+          color: $accent-color-dark;
+          font-size: 1.25rem;
+          font-weight: 700;
+          line-height: 0.8;
+          letter-spacing: 0.5px;
+          margin: 0;
+        }
+      }
+    }
+    .expander {
+      .expander-header {
+        .expander-header-content {
+          .expander-title {
+            margin: $standard-margin 0;
+            color: $accent-color-dark;
+            font-size: 1.25rem;
+            line-height: 0.8;
+          }
+        }
+      }
+      .expander-children {
+        .expander-body {
+          color: $text-color-000;
+          ul {
+            padding-left: $standard-padding * 4;
+            li {
+              list-style-type: circle;
+            }
+          }
+        }
+      }
+    }
+  }
+}

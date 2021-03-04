@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Electronics",
+    "subCategories": [
+      {
+        "name": "Cell phones"
+      },
+      {
+        "name": "Accessories",
+        "subCategories": [
+          {
+            "name": "Pen drive",
+            "subCategories": [
+              {
+                "name": "8GB"
+              },
+              {
+                "name": "16GB"
+              },
+              {
+                "name": "64GB"
+              },
+              {
+                "name": "128GB"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Furniture",
+    "subCategories": [
+      {
+        "name": "Chair"
+      }
+    ]
+  },
+  {
+    "name": "Apparel",
+    "subCategories": [
+      {
+        "name": "Mens wear"
+      }
+    ]
+  }
+]
